@@ -1,8 +1,59 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
 body {
-	/*background: gray;*/
+	font-family: 'PT Sans', sans-serif;
+	background: gray;
 	background: radial-gradient(#000, #333 30%, #606060);
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	
 	color: white;
+}
+
+/* General elements */
+
+/* Navbar */
+nav {
+	min-height: 20vh;
+	margin: 0.5rem;
+}
+nav img {
+	display: inline;
+}
+nav ul {
+	display: inline;
+}
+nav ul li {
+	display: inline;
+	padding: 2vw;
+	min-width: 3vw;
+}
+nav ul li a {
+	background-color: rgba(0,0,0,0.5);
+	color: inherit;
+	text-decoration: none;
+	padding: 0.5rem;
+	border-radius: 2rem;
+}
+nav ul li a:hover {
+	opacity: 0.5;
+}
+
+
+/* Main */
+main {
+	min-height: 60vh;
+}
+
+/* Sticky Footer */
+main {
+	margin-bottom: -10vh;
+}
+.push, footer {
+    height: 5vh;
+}
+footer {
+    height: 5vh;
 }
