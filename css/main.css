@@ -3,7 +3,11 @@ html, body {
 	margin: 0;
 }
 body {
-	font-family: 'PT Sans', sans-serif;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	
+	font-family: 'Roboto', sans-serif;
 	background: gray;
 	background: radial-gradient(#000, #333 30%, #606060);
 	background-repeat: no-repeat;
@@ -16,44 +20,63 @@ body {
 
 /* Navbar */
 nav {
-	min-height: 20vh;
+	min-height: 20%;
 	margin: 0.5rem;
+	text-align: center;
 }
 nav img {
-	display: inline;
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 50px;
+	padding-bottom: 1.5rem;
 }
 nav ul {
 	display: inline;
+	padding: 0;
 }
 nav ul li {
 	display: inline;
-	padding: 2vw;
+	padding: 0 2vw;
 	min-width: 3vw;
 }
 nav ul li a {
-	background-color: rgba(0,0,0,0.5);
-	color: inherit;
+	color: #ccc;
 	text-decoration: none;
-	padding: 0.5rem;
+	padding: 0.5rem 2vw;
 	border-radius: 2rem;
+	transition: all 0.3s ease 0s;
 }
-nav ul li a:hover {
-	opacity: 0.5;
+nav ul li a:hover, .active a {
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
 }
 
 
 /* Main */
 main {
-	min-height: 60vh;
+	text-align: center;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+main h1 {
+	font-size: 4rem;
+}
+main p.lead {
+	font-size: 2rem;
 }
 
-/* Sticky Footer */
-main {
-	margin-bottom: -10vh;
-}
-.push, footer {
-    height: 5vh;
-}
+/* Footer */
 footer {
-    height: 5vh;
+	text-align: center;
+	padding: 1rem;
+}
+footer .dev {
+	font-size: 80%;
+}
+
+footer a {
+	color: inherit;
 }

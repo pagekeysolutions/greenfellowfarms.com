@@ -1,0 +1,11 @@
+@media screen and (max-width: 1px) {
+	nav img {
+		display: block;
+		margin: auto;
+	}
+	nav ul li {
+		display: block;
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+	}
+}
