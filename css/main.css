@@ -1,0 +1,8 @@
+body {
+	/*background: gray;*/
+	background: radial-gradient(#000, #333 30%, #606060);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	
+	color: white;
+}
