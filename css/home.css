@@ -3,11 +3,18 @@ html, body {
 	margin: 0;
 }
 body {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 	
 	font-family: 'Roboto', sans-serif;
-	background-color: white;
+	background: gray;
+	background-image: url('../img/field4.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
 	
-	color: black;
+	color: white;
 }
 
 /* General elements */
@@ -24,12 +31,13 @@ nav img, .brand {
 	width: 250px;
 }
 nav .brand {
-	color: inherit;
 	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px black;
 	padding-bottom: 1.5rem;
 }
 nav .brand:hover {
-	color: inherit;
+	color: white;
 }
 nav ul {
 	display: block;
@@ -41,7 +49,8 @@ nav ul li {
 	min-width: 4vw;
 }
 nav ul li a {
-	color: inherit;
+	color: #fff;
+	text-shadow: 1px 1px black;
 	text-decoration: none;
 	padding: 0.5rem 2vw;
 	border-radius: 2rem;
@@ -56,26 +65,25 @@ nav ul li a:hover, .active a {
 /* Main */
 main {
 	text-align: center;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
-
-main .lead-image {
-	width: 500px;
-	display: block;
-	margin: auto;
-}
-
 main h1 {
 	font-size: 4rem;
+	text-shadow: 1px 1px black;
 }
 main p.lead {
 	font-size: 2rem;
+	text-shadow: 1px 1px black;
 }
 
 /* Footer */
 footer {
 	text-align: center;
-	padding: 0.5rem;
-	padding-top: 3rem;
+	padding: 1rem;
+	text-shadow: 1px 1px black;
 }
 footer .dev {
 	font-size: 80%;
