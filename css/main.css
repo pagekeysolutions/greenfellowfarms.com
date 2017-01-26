@@ -59,6 +59,7 @@ main {
 }
 
 main .lead-image {
+	padding-top: 4rem;
 	width: 500px;
 	display: block;
 	margin: auto;
