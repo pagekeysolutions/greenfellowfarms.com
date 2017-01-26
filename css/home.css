@@ -49,6 +49,7 @@ nav ul li {
 	min-width: 4vw;
 }
 nav ul li a {
+	background-color: rgba(0,0,0,0.2);
 	color: #fff;
 	text-shadow: 1px 1px black;
 	text-decoration: none;
