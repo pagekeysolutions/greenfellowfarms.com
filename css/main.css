@@ -40,14 +40,17 @@ nav ul li {
 	padding: 0 4vw;
 	min-width: 4vw;
 }
-nav ul li a {
+nav ul li a, .button {
 	color: inherit;
 	text-decoration: none;
 	padding: 0.5rem 2vw;
 	border-radius: 2rem;
 	transition: all 0.3s ease 0s;
 }
-nav ul li a:hover, .active a {
+.button {
+	background-color: rgba(0,0,0,0.2);
+}
+nav ul li a:hover, .active a, .button:hover {
 	background-color: rgba(0,0,0,0.5);
 	color: #fff;
 }
@@ -59,10 +62,12 @@ main {
 }
 
 main .lead-image {
-	padding-top: 4rem;
+	margin: auto;
+	margin-top: 4rem;
 	width: 500px;
 	display: block;
-	margin: auto;
+	border-radius: 3rem;
+	border: 1px solid lightgray;
 }
 
 main h1 {
@@ -70,6 +75,10 @@ main h1 {
 }
 main p.lead {
 	font-size: 2rem;
+}
+
+main p.lead-subtitle {
+	font-size: 1.5rem;
 }
 
 /* Footer */
@@ -83,5 +92,5 @@ footer .dev {
 }
 
 footer a {
-	color: inherit;
+	color:inherit;
 }
