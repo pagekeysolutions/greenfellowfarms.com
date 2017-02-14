@@ -93,3 +93,22 @@ footer .dev {
 footer a {
 	color: inherit;
 }
+
+/* Media queries */
+
+@media only screen and (max-width : 750px) {
+  nav ul li {
+      display: block;
+      padding: 10px 0;
+  }
+ 
+  nav ul {
+    padding-bottom: 2vh;
+    border-bottom: 3px dotted black;
+    padding-top: 2vh;
+    border-top: 3px dotted black;
+  }
+  main h1 {
+    margin: 0 0;
+  }
+}
