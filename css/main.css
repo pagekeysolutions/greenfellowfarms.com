@@ -64,7 +64,7 @@ main {
 main .lead-image {
 	margin: auto;
 	margin-top: 4rem;
-	width: 500px;
+	width: 50vw;
 	display: block;
 	border-radius: 3rem;
 	border: 1px solid lightgray;
@@ -75,10 +75,18 @@ main h1 {
 }
 main p.lead {
 	font-size: 2rem;
+    padding: 1rem;
 }
 
 main p.lead-subtitle {
 	font-size: 1.5rem;
+}
+
+main a {
+  color: inherit;
+}
+main p {
+  margin: 0 5%;
 }
 
 /* Footer */
@@ -93,4 +101,21 @@ footer .dev {
 
 footer a {
 	color:inherit;
+}
+
+/* Rabbit buttons */
+.rabbit_buttons {
+  margin-bottom: -1.5rem;
+}
+a .btn-rabbit {
+  margin: 1rem auto;
+  width: 50%;
+  padding: 2rem;
+  box-shadow: 1px 1px black;
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.parent-page {
+  margin-top: -2rem;
 }
