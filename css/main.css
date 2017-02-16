@@ -64,7 +64,7 @@ main {
 main .lead-image {
 	margin: auto;
 	margin-top: 4rem;
-	width: 50vw;
+	width: 40vw;
 	display: block;
 	border-radius: 3rem;
 	border: 1px solid lightgray;
@@ -86,7 +86,7 @@ main a {
   color: inherit;
 }
 main p {
-  margin: 0 5%;
+  margin: 0 20%;
 }
 
 /* Footer */

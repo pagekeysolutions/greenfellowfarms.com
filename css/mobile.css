@@ -10,4 +10,8 @@
     padding-top: 5vh;
     border-top: 3px dotted black;
   }
+	
+	main p {
+	  margin: 0 5%;
+	}
 }
