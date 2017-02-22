@@ -14,4 +14,8 @@
 	main p {
 	  margin: 0 5%;
 	}
+	
+	main .lead-image {
+		width: 50vw;
+	}
 }
