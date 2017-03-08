@@ -106,3 +106,19 @@ footer a {
     font-size: 3rem;
   }
 }
+
+
+div#phone {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+
+div#phone a {
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+  text-shadow: 1px 1px black;
+  padding: 5px;
+}

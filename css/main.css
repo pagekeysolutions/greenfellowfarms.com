@@ -50,6 +50,7 @@ nav ul li a, .button {
 .button {
 	background-color: rgba(0,0,0,0.2);
 }
+
 nav ul li a:hover, .active a, .button:hover {
 	background-color: rgba(0,0,0,0.5);
 	color: #fff;
@@ -118,4 +119,24 @@ a .btn-rabbit {
 }
 .parent-page {
   margin-top: -2rem;
+}
+
+
+div#phone {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: right;
+}
+
+div#phone a {
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
 }
