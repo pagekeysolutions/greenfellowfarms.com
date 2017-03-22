@@ -105,6 +105,9 @@ footer a {
   main h1 {
     font-size: 3rem;
   }
+   body {
+    padding-top: 50px;
+  }
 }
 
 
