@@ -1,6 +1,6 @@
 window.onload = function() {
 	document.getElementById("footer_year").innerHTML = " " + new Date().getFullYear();
-}
+};
 
 // Google Analytics
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
